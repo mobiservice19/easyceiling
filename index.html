@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Расчёт натяжного потолка</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img_qviz/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img_qviz/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img_qviz/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img_qviz/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link href="css_qviz/simplebar.css" rel="stylesheet">
+	<link href="css_qviz/quiz.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+	<div class="wrapSectionQuiz">
+
+
+		<form id="formQuiz" method='post'>
+
+
+			<div class="fonQuiz">
+
+				<!-- секция с логотипом и данными вверху -->
+				<div class="sectionHeader">
+					<div class="wrapLogoHeader">
+						<img src="img_qviz/logo.png" alt="Логотип">
+					</div>
+					<div class="wrapTitleHeader">
+						<div class="titleHeader">Ростов-на-Дону<br />Ростовская область</div>
+					</div>
+				</div> <!-- .sectionHeader -->
+				<!--окончание секция с логотипом и данными вверху -->
+
+				<!-- первый видимый экран -->
+				<div class="sectionStart" id="sectionStart">
+					<div class="title-sectionStart">Ответьте на <span id="numberStepsTitle"></span> вопросов и узнайте
+						стоимость натяжного потолка</div>
+					<div class="descr-sectionStart">На основе многолетнего опыта</div>
+					<div class="button-sectionStart" id="buttonStart">
+						<span class="icon">
+							<svg viewBox="0 0 24 24" class="mdi-icon mdi-24px"><title>mdi-checkbox-marked-circle-outline</title><path d="M20,12C20,16.42 16.42,20 12,20C7.58,20 4,16.42 4,12C4,7.58 7.58,4 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+						</span>
+						Расчитать
+						
+					</div>
+				</div> <!-- .sectionStart -->
+				<!--окончание  первый видимый экран -->
+
+				<!-- секция с шагами -->
+				<div class="sectionSteps hide" id="sectionSteps">
+					<div class="wrapStepsQuiz" id="wrapStepsQuiz">
+
+
+
+						<!-- один шаг с картинками -->
+						<div class="oneStepQuiz oneStepQuiz-js next-js oneStepQuiz-typeImg">
+							<input type="hidden" name="" value="">
+							<div class="stepTitle stepTitle-js">1. Укажите тип полотна</div>
+							<div data-simplebar>
+								<div class="stepItems stepItems-typeImg stepItems-js stepItems-typeImg-js">
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/polotno_1.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">Глянец</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/polotno_2.png" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">Сатин</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/polotno_3.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">Матовый</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/polotno_4.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">Шелкография</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/polotno_5.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">Другой</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+								</div> <!-- .stepItems -->
+							</div> <!-- data-simplebar -->
+
+
+							<div class="stepButtons">
+								<div class="stepButtons-back stepButtons-back-js">Назад</div>
+								<div class="stepButtons-next stepButtons-next-js">Далее</div>
+							</div> <!-- .stepButtons -->
+
+						</div> <!-- .oneStepQuiz -->
+						<!--окончание  один шаг с картинками -->
+
+
+
+						<!-- один шаг с картинками -->
+						<div class="oneStepQuiz oneStepQuiz-js next-js oneStepQuiz-typeImg">
+							<input type="hidden" name="" value="">
+							<div class="stepTitle stepTitle-js">2. Какой у Вас объект?</div>
+							<div data-simplebar>
+								<div class="stepItems stepItems-typeImg stepItems-js stepItems-typeImg-js">
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/house_1.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">ЧАСТНЫЙ ДОМ</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/house_2.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">КВАРТИРА</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/house_3.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">БЮДЖЕТАЯ ОРГАНИЗАЦИЯ</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/house_4.jpg" alt="изображение">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">КОММЕРЧЕСКАЯ НЕДВИЖИМОСТЬ</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/house_5.jpg" alt="изображение ">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">ДРУГОЕ</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+
+
+								</div> <!-- .stepItems -->
+							</div> <!-- data-simplebar -->
+
+
+							<div class="stepButtons">
+								<div class="stepButtons-back stepButtons-back-js">Назад</div>
+								<div class="stepButtons-next stepButtons-next-js">Далее</div>
+							</div> <!-- .stepButtons -->
+
+						</div> <!-- .oneStepQuiz -->
+						<!--окончание  один шаг с картинками -->
+
+
+						<!-- один шаг с данными польователя -->
+						<div class="oneStepQuiz oneStepQuiz-js next-js oneStepQuiz-typeMyData">
+
+							<div class="stepTitle stepTitle-js">3. Какая площадь помещения?</div>
+							<div class="stepItems stepItems-typeMyData stepItems-js">
+								<div class="wrapStepItems-typeMyData">
+
+									<!-- одиночный элемент с данными польователя (проверка на заполнение только по первому элементу) -->
+									<div class="itemStep itemStep-typeMyData itemStep-typeMyData-js">
+										<div class="title-itemStep-typeMyData title-itemStep-typeMyData-js">Площадь помещения:</div>
+										<div class="wrapInputMyData-typeMyData">
+											<input class="inputMyData inputMyData-js" name="volume" type="text">
+										</div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с данными польователя -->
+
+								</div> <!-- .wrapStepItems-typeMyData -->
+							</div> <!-- .stepItems -->
+
+							<div class="stepButtons">
+								<div class="stepButtons-back stepButtons-back-js">Назад</div>
+								<div class="stepButtons-next stepButtons-next-js">Далее</div>
+							</div> <!-- .stepButtons -->
+
+						</div> <!-- .oneStepQuiz -->
+						<!--окончание один шаг с данными польователя -->
+
+
+
+						<!-- один шаг с радиокнопками -->
+						<div class="oneStepQuiz oneStepQuiz-js next-js oneStepQuiz-typeRadio">
+							<input type="hidden" name="" value="">
+							<div class="stepTitle stepTitle-js">4. Укажите Ваш город:</div>
+							<div class="stepItems stepItems-typeRadio stepItems-js stepItems-typeRadio-js">
+								<div class="wrapStepItems-typeRadio">
+
+									<!-- одиночный элемент с радиокнопкой -->
+									<div class="itemStep itemStep-typeRadio itemStep-typeRadio-js">
+										<div class="itemRadio"></div>
+										<div class="title-itemStep-typeRadio title-itemStep-typeRadio-js">Ростов-на-Дону</div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с радиокнопкой -->
+
+
+									<!-- одиночный элемент с радиокнопкой -->
+									<div class="itemStep itemStep-typeRadio itemStep-typeRadio-js">
+										<div class="itemRadio"></div>
+										<div class="title-itemStep-typeRadio title-itemStep-typeRadio-js">Батайск</div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с радиокнопкой -->
+
+
+									<!-- одиночный элемент с радиокнопкой -->
+									<div class="itemStep itemStep-typeRadio itemStep-typeRadio-js">
+										<div class="itemRadio"></div>
+										<div class="title-itemStep-typeRadio title-itemStep-typeRadio-js">Новочеркасск</div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с радиокнопкой -->
+
+								</div> <!-- .wrapStepItems-typeRadio -->
+							</div> <!-- .stepItems -->
+
+							<div class="stepButtons">
+								<div class="stepButtons-back stepButtons-back-js">Назад</div>
+								<div class="stepButtons-next stepButtons-next-js">Далее</div>
+							</div> <!-- .stepButtons -->
+
+						</div> <!-- .oneStepQuiz -->
+						<!--окончание  один шаг с радиокнопками -->
+
+
+						<!-- один шаг с картинками -->
+						<div class="oneStepQuiz oneStepQuiz-js next-js oneStepQuiz-typeImg">
+							<input type="hidden" name="" value="">
+							<div class="stepTitle stepTitle-js">5. Куда отправить варианты стоимости потолка?</div>
+							<div data-simplebar>
+								<div class="stepItems stepItems-typeImg stepItems-js stepItems-typeImg-js">
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/WhatsApp.jpg" alt="WhatsApp">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">WhatsApp</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+									<!-- одиночный элемент с картинкой и текстом -->
+									<div class="itemStep itemStep-typeImg itemStep-typeImg-js">
+										<div class="wrapItemImg">
+											<img class="ItemImg" src="img_qviz/telegram.jpg" alt="Telegram">
+										</div>
+										<div class="wrapItemText-typeImg">
+											<div class="title-itemStep-typeImg title-itemStep-typeImg-js">Telegram</div>
+										</div>
+										<div class="wrapItemSelect-typeImg"><span></span></div>
+									</div> <!-- .itemStep -->
+									<!-- окончание одиночного элемента с картинкой и текстом -->
+
+
+								</div> <!-- .stepItems -->
+							</div> <!-- data-simplebar -->
+
+
+							<div class="stepButtons">
+								<div class="stepButtons-back stepButtons-back-js">Назад</div>
+								<div class="stepButtons-next stepButtons-next-js">Далее</div>
+							</div> <!-- .stepButtons -->
+
+						</div> <!-- .oneStepQuiz -->
+						<!--окончание  один шаг с картинками -->
+
+					</div> <!-- .wrapStepsQuiz -->
+				</div> <!-- .sectionSteps -->
+				<!--окончание секция с шагами -->
+
+
+				<!-- секция с полем ввода телефона -->
+				<div class="sectionFinish hide" id="sectionFinish">
+
+
+					<div class="stepTitle stepTitle-js">Отлично! Введите номер телефона и получите расчет:</div>
+					<div class="contentFinish">
+						<div class="wrapformField">
+							<input type="tel" name="phone" id="inputTel" class="inputTel" val="" placeholder="+7(___)___-__-__">
+						</div>
+						<div class="textConsent">Нажимая на кнопку, вы даете согласие на обработку <a
+								href="docum_qviz/171793_policy.pdf" target="_blank">персональных&nbsp;данных</a></div>
+						<div class="textErrorTel" id="textErrorTel">Пожалуйста, введите корректный номер телефона</div>
+					</div>
+					<div class="stepButtons">
+						<div class="stepButtons-back stepButtons-back-js">Назад</div>
+						<button class="stepButtons-next" id="buttonForm">Далее</button>
+					</div> <!-- .stepButtons -->
+
+
+					<!-- Скрытые поля темы, адресата -->
+					<input type="hidden" name="project_name" value="заявка с сайта">
+					<input type="hidden" name="admin_email" value="info@easyceiling.site"> <!-- добавить свой email -->
+					<input type="hidden" name="form_subject" value="Заявка с Quiz">
+
+
+
+
+
+				</div> <!-- .sectionFinish -->
+				<!--окончание секция с полем ввода телефона -->
+
+				<!-- нижняя секция -->
+				<div class="sectionFooter" id="sectionFooter">
+
+					<div class="wrapProgressCalc">
+						<div class="progressCalcWrapLine-1">
+							<div class="textProgress">Пройдено<span>&nbsp;</span><span class="textPersent-bar-js textPersent-bar">0</span>%</div>
+
+							<div class="progressCalcLine-1"></div>
+						</div>
+						<div class="progressCalcWrapLine-2">
+							<div class="progressCalcLine-2"></div>
+						</div>
+					</div> <!-- .wrapProgressCalc -->
+
+					<div class="wrapProgressFooter">
+						<div class="textProgerssfooter">
+							<span id="textProgerss-1">1</span>
+							из
+							<span id="textProgerss-2"></span>
+						</div>
+					</div>
+				</div> <!-- .sectionFooter -->
+				<!--окончание нижняя секция -->
+
+			</div> <!-- .fonQuiz -->
+
+
+
+
+			<!-- Модальное окно с благоадрностью и кнопками, можно использовать при необходимости -->
+
+			<!-- <div class="sectionmodalThanks closedModal" id="modalThanks">
+				<div class="sectionmodalThanks__wrap">
+					<div class="textModal_1">Спасибо!</div>
+					<div class="textModal_2">Ваши ответы отправлены на обработку. Наш менеджер свяжется с вами в ближайшее время</div>
+					<div  class="textModal_4"><a href="">Узнать больше</a></div>
+					<div class="textModal_3">Пройти тест еще раз</div>
+					<div class="sectionmodalThanks__close" id="modalCloseButton"></div>
+				</div>
+			</div>  -->
+
+		</form>
+
+	</div> <!-- .wrapSectionQuiz -->
+
+
+
+
+
+
+
+
+
+
+	<script src="js_qviz/jquery-3.2.1.min.js"></script>
+	<script src="js_qviz/quiz.min.js"></script>
+	<script src="js_qviz/jquery.maskedinput.js"></script>
+	<script src="js_qviz/simplebar.js"></script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1742048582629195');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1742048582629195&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+ym(70158073, "init", {
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true
+});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/70158073" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+
+</html>
+
+
+
+
+<!-- 
+
+
+цифры в заголовке первого экрана высчитываются автоматически в зависимости от кол-ва шагов, (блоки с .oneStepQuiz-js)
+что бы добавить шаг, нужно найти подобный тип шага (с картинкой, с радиокнопкой, с вводом своих данных) (в каждом шаге есть классы .oneStepQuiz .oneStepQuiz-js) скопировать и вставить в нужной последовательности шагов.
+скрипт автоматичекси считывает заголовок шага и передает в нужное поле для отправки на почту
+аналогично счытывается подпись выбранного ЭЛЕМЕНТА шага и передается в нужное поле.
+что бы сделать ЭЛЕМЕНТ (с картинкой или с радиокнопкой), выбранным по умолчанию (при загрузке) - нужно добавить класс "active" нужному элементу (у него есть класс "itemStep").
+
+ -->
